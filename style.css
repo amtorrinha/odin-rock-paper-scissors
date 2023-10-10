@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+    background: lightblue;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+
+    background: rgb(209, 197, 197);
+    margin: 50px 250px;
+    padding: 50px;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    background: rgb(209, 197, 197);
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 25px;
+}
